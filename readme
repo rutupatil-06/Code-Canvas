@@ -1,0 +1,56 @@
+# Code Canvas
+
+**An Interactive Handwritten Programming and Code Recognition Application**
+
+## About the Project
+
+Code Canvas is a Python-based application designed to make programming more interactive for teachers and students. It provides a digital canvas where users can write code using a mouse, touchscreen, or compatible stylus.
+
+The application uses the Qwen3-VL vision-language model through llama.cpp to recognize handwritten programming code and convert it into editable source text. Users can review the recognized code and use the application's programming features.
+
+## Objectives
+
+- Provide an interactive digital canvas for handwritten code.
+- Convert handwritten programming code into editable source code.
+- Allow users to review and correct recognized code.
+- Support Python code execution and output display.
+- Explore compatibility with Windows computers and Android devices.
+
+## Technologies Used
+
+- **Python** – Application logic
+- **Kivy** – User interface
+- **Qwen3-VL-2B-Instruct** – Handwritten code recognition
+- **llama.cpp** – Local model inference
+- **Buildozer** – Android application packaging
+
+## Current Features
+
+- Interactive digital writing canvas
+- Handwriting capture and code recognition workflow
+- Editable recognized code
+- Python file saving
+- Code execution functionality, where supported by the current setup
+- Android APK packaging support
+
+*Feature availability and recognition performance may vary depending on the device and configuration.*
+
+## Project Structure
+
+The project contains the main Python application, interface and recognition logic, and Android packaging configuration.
+
+## Future Enhancements
+
+- Improve recognition accuracy for different handwriting styles.
+- Add syntax validation and clearer error messages.
+- Expand programming language support.
+- Improve the mobile user experience.
+- Add code organization and sharing features.
+
+## Project Status
+
+This project is under development. Additional features, improvements, and testing will be added in future updates.
+
+## Author
+
+Developed as a college major project in Computer Engineering.
